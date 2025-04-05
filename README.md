@@ -1,37 +1,39 @@
-# 🛍️ Price Scraper & Trend Analyzer
+# Price Scraper & Trend Analyzer
 
-![Python](https://img.shields.io/badge/Language-Python-blue?logo=python)  
-![BeautifulSoup](https://img.shields.io/badge/Library-BeautifulSoup-orange?logo=beautifulsoup)  
-![Pandas](https://img.shields.io/badge/Library-Pandas-green?logo=pandas)  
-![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-red?logo=matplotlib)  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-FFA500?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib&logoColor=white&style=for-the-badge)
 
-## 📌 What it Does  
+## About
 
-The **Price Scraper & Trend Analyzer** program scrapes product price data from two different products using **BeautifulSoup**. The scraped price data is stored in a **CSV file** and read into a **Pandas dataframe** for analysis. The price trends of the two products are visualized using **Matplotlib**, helping users compare price fluctuations over time.
+**Price Scraper & Trend Analyzer** is a Python application that scrapes product price data from two e-commerce pages and analyzes price fluctuations over time. It uses **BeautifulSoup** for scraping, **Pandas** for data handling, and **Matplotlib** for visualizing pricing trends.
 
-## 🚀 How We Built It  
+## Features
 
-### Technologies Used:  
-- **Python**: A versatile programming language used for web scraping, data manipulation, and visualization.  
-- **BeautifulSoup**: A Python library used for parsing HTML and scraping product prices from e-commerce websites.  
-- **Pandas**: A data analysis library that allows for easy manipulation of tabular data and CSV file handling.  
-- **Matplotlib**: A plotting library used for visualizing the price trends of the products over time.
+- **Web Scraping**: Extracts prices for two products from e-commerce HTML using BeautifulSoup  
+- **CSV File Output**: Saves scraped data into a structured CSV file  
+- **Data Analysis**: Loads data with Pandas for manipulation and trend analysis  
+- **Trend Visualization**: Plots historical price changes for easy comparison  
 
-### Web Scraping:  
-- **BeautifulSoup**: Extracts the price data of two different products by parsing HTML from the e-commerce pages.  
-- **CSV File Output**: The scraped prices are written into a CSV file for future analysis.
+### Interactive Highlights
 
-### Data Visualization:  
-- **Pandas DataFrame**: Reads the CSV file and structures the data for easy analysis and plotting.  
-- **Data Plotting**: **Matplotlib** is used to plot the prices of the two products over time, allowing for trend analysis and comparison.
+- Dynamic price plots for each product  
+- Visual side-by-side comparison of pricing history  
+- Easy CSV export for ongoing monitoring or analysis
 
-## 🚀 Features  
+## Technology Stack
 
-- **Web Scraping**: Scrapes product prices from e-commerce websites using **BeautifulSoup**.  
-- **CSV File Output**: Stores the scraped prices in a CSV file to be used for future analysis.  
-- **Data Analysis**: Uses **Pandas** to load the data from the CSV file and structure it for visualization.  
-- **Price Trend Visualization**: Visualizes the price trends of the two products over time using a line plot.
+- **Language**: Python  
+- **Libraries**:
+  - **BeautifulSoup** – for parsing and extracting HTML content  
+  - **Pandas** – for data manipulation and CSV handling  
+  - **Matplotlib** – for plotting price trends
 
-### Interactive Features:
-- **Dynamic Plot**: The price trends for the two products are displayed as a line plot.  
-- **Trend Analysis**: Users can visually compare how the prices of the two products change over time.
+## Workflow
+
+1. **Scrape HTML** from product pages  
+2. **Extract prices** using BeautifulSoup  
+3. **Save data** into a `.csv` file  
+4. **Load into Pandas** for analysis  
+5. **Visualize with Matplotlib** to track trends over time
